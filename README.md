@@ -348,35 +348,33 @@ Triangle3
 
 `function draw() {`
   
-  `torus.rotation.x += 0.005;
+`torus.rotation.x += 0.005;torus.rotation.y -= 0.005;`
   
-  torus.rotation.y -= 0.005;
+`//torus.rotation.z += 0.005;`
   
-  //torus.rotation.z += 0.005;`
+`//torus2.rotation.x -= 0.005;
   
-  `//torus2.rotation.x -= 0.005;
+torus2.rotation.y += 0.005;
   
-  torus2.rotation.y += 0.005;
+torus2.rotation.x -= 0.005;`
   
-  torus2.rotation.x -= 0.005;`
+`torus3.rotation.x -= 0.005;
   
-  `torus3.rotation.x -= 0.005;
+torus3.rotation.z += 0.005;`
+
+`torus4.rotation.x += 0.005;
   
-  torus3.rotation.z += 0.005;`
+  torus4.rotation.z -= 0.005;`
   
-  `torus4.rotation.x += 0.005;
+  `//torus.rotation.z += 0.005;`
   
-  torus4.rotation.z -= 0.005;
+  `//torus2.rotation.x -= 0.005;`
   
-  //torus.rotation.z += 0.005;`
-  
-  `//torus2.rotation.x -= 0.005;
-  
-  torus5.rotation.y += 0.005;
+  `torus5.rotation.y += 0.005;
   
   torus5.rotation.z -= 0.005;`
   
-  `torus6.rotation.y -= 0.005;
+ `torus6.rotation.y -= 0.005;
   torus6.rotation.z += 0.005;`
   
  ` sphereMesh.rotation.x += 0.005;
