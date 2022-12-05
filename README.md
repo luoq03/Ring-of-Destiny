@@ -13,6 +13,7 @@ This is my final project, the theme of which is the Ring of Destiny. It describe
 
 
 ## Skybox ##
+I chose to use images of psycho-bionics to map the context of the story of people accessing energy through their spirits.
 ![09a954267d49fee369528e34ce22561](https://user-images.githubusercontent.com/57748663/205642493-308c5ceb-48b3-4423-9a4e-9dc5a3e0d6fb.png)
 `const urls = [
   'up.png',
