@@ -429,20 +429,20 @@ Lights and Camera
    
    ` var counter = 0;`
    
-    `var tempo = 120;`
+   ` var tempo = 120;`
     
-    `var ticks = 1;`
+   `var ticks = 1;`
    
-    `myClock.setTempo(tempo);`
+   `myClock.setTempo(tempo);`
     
-    `myClock.setTicksPerBeat(ticks);`
+   `myClock.setTicksPerBeat(ticks);`
 
    
-    `audio.play = function() {`
+   `audio.play = function() {`
     
-    `myClock.ticker();`
+   `myClock.ticker();`
     
-    `if (myClock.tick) {`
+   `if (myClock.tick) {`
             
            ` scratch=0;`
            
