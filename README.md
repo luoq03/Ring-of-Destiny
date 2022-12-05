@@ -282,7 +282,7 @@ Diamond24
  ![9de6d8c13992fa5c87c9e85ab79750b](https://user-images.githubusercontent.com/57748663/205663702-77a94c9b-e820-42e1-bf98-4eeaf49e6108.png)
 
 <br> 
-Circle1 
+CircleLoop 1 
 
 `var geometry = new THREE.TorusGeometry( 2, 0.02, 20, 100 );`
 
@@ -303,7 +303,7 @@ Triangle1
 `scene.add( torus2 ); `
 
 <br> 
-Circle2
+CircleLoop 2
 
 `var geometry3 = new THREE.TorusGeometry( 2, 0.02, 20, 100 );`
 
@@ -325,7 +325,7 @@ Triangle2
 `scene.add( torus4 );`
 
 <br> 
-Circle3
+CircleLoop 3
 
 `var geometry5 = new THREE.TorusGeometry( 2, 0.02, 20, 100 );`
 
