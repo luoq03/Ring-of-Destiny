@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/57748663/205693530-9913dee0-7b66-45a8-
 
 ## Project Overview ##
 
-This is my final project, the theme of which is the Ring of Destiny(Switching views with the mouse). It describes a scenario in which, as the population continues to grow, the energy supply on earth becomes a bottleneck for human development. Attempts are made to amplify spiritual power and transform it into energy machines so that human civilisation can continue to develop at a high rate.
+This is my final project, the theme of which is the Ring of Destiny(Switching views with the mouse). It describes a scenario in which, as the population continues to grow, the energy supply on earth becomes a bottleneck for human development. Attempts are made to amplify spiritual power and transform it into energy machines so that human civilisation can continue to develop at a high rate.I have tried to present this theme using a combination of sound and 3D images, allowing the interactor to experience the core of the work both aurally and visually.
 
 <br>
 
@@ -26,7 +26,7 @@ This is my final project, the theme of which is the Ring of Destiny(Switching vi
 
 <br>
 
-I chose to use images of psycho-bionics to map the context of the story of people accessing energy through their spirits.Many outstretched tentacles form the fabric of society.
+I chose to use images of psycho-bionics to map the context of the story of people accessing energy through their spirits.Many outstretched tentacles form the fabric of society.On the other hand, the texture of the neural network is enriched by the reflective material of the central circle.
 
 <br>
 
@@ -46,7 +46,7 @@ I chose to use images of psycho-bionics to map the context of the story of peopl
  
  ### The circle in the centre ###
 
-
+The form at the centre is constantly rotating, representing the course of destiny dependent on never-ending resources
   
 ![998f09cefe541c7fcabfd1abdbfc3bf](https://user-images.githubusercontent.com/57748663/205646483-bec85a9d-fd9a-44d1-a1be-25c63e92cbc4.png)
 
@@ -63,6 +63,8 @@ I chose to use images of psycho-bionics to map the context of the story of peopl
  <br> 
  
  ### "Diamonds" scattered around ###
+ 
+ The 24 Diamonds represent 24 hours, indicating that time rotates with the circle in the centre.
  
  ![bb6e1d31d46426d3b06e4f1db025faf](https://user-images.githubusercontent.com/57748663/205657096-ceb72fd2-353b-4ec2-84d0-c2a9543efb36.png)
 
@@ -284,7 +286,7 @@ Diamond24
  
  ### Revolving three circles and three revolving triangles ###
  
- <br> 
+ The interweaving of straight lines and curves represents the possibility of different futures
  
  ![9de6d8c13992fa5c87c9e85ab79750b](https://user-images.githubusercontent.com/57748663/205663702-77a94c9b-e820-42e1-bf98-4eeaf49e6108.png)
 
@@ -551,12 +553,13 @@ Materials
 `//materials`
 
 Material1
-
+The white material has a 'more rule' feeling and represents layers of restriction.
 ![ddbbb6098fff160ab650d8ff9be0151](https://user-images.githubusercontent.com/57748663/205669290-75754546-0c44-4cd6-8bbb-027c89d70d76.png)
 
 `const material1 = new THREE.MeshBasicMaterial( { color: 0xffffff } );`
 
 Material2
+The reflective material better reflects the blend with the environment.
 
 ![d43f5e7b568044e132efdceeb044092](https://user-images.githubusercontent.com/57748663/205668994-b1482f75-014c-4e6a-987d-bb3c6e990ebb.png)
 
@@ -598,6 +601,8 @@ Lights and Camera
 `camera.position.z = 3.4;`
 
 ### Sounds ###
+
+A combination of four voices, high and low, urgent and slow, to set the scene for the future where crisis and opportunity coexist.
 
   `let maxi = maximilian();`
   
