@@ -207,7 +207,9 @@ I chose to use images of psycho-bionics to map the context of the story of peopl
  <br> 
  
  ### Revolving three circles and three revolving triangles ###
+ 
  <br> 
+ 
 `var geometry = new THREE.TorusGeometry( 2, 0.02, 20, 100 );
 var torus = new THREE.Mesh( geometry, cubeMaterial1);
 scene.add( torus );
