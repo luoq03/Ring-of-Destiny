@@ -371,3 +371,120 @@ Material2
   
 `});`
 
+Lights and Camera
+
+`//lights`
+
+`const ambient = new THREE.AmbientLight(0xffffff);`
+
+`scene.add(ambient);`
+
+`const pointLight = new THREE.PointLight(0xffffff, 2);`
+
+`scene.add(pointLight)   `
+
+`const color = 0xFFFFFF;`
+
+`const intensity = 1;`
+
+`const spotlight = new THREE.DirectionalLight(color, intensity);`
+
+`spotlight.position.set(0, 1, 5);`
+
+`scene.add(spotlight); ;`
+
+`var renderer = new THREE.WebGLRenderer();`
+
+`camera.position.z = 3.4;`
+
+### Sounds ###
+
+  `let maxi = maximilian();`
+  
+  `let audio = new maxi.maxiAudio();`
+  
+ ` let myOsc = new maxi.maxiOsc();`
+ 
+ ` let drum1 = new maxi.maxiSample();`
+ 
+ ` let drum4 = new maxi.maxiSample();`
+ 
+  `let drum2 = new maxi.maxiSample();`
+  
+  `let drum3 = new maxi.maxiSample();`
+  
+  `let myClock=new maxi.maxiClock();`
+  
+  `audio.init();`
+  
+  `audio.loadSample('drum3.wav',drum3);`
+  
+  `audio.loadSample('drum4.wav',drum4);`
+  
+  `audio.loadSample('drum2.wav',drum2);`
+  
+  `audio.loadSample('drum1.wav',drum1);`
+  
+   ` var scratch=0;`
+   
+   ` var counter = 0;`
+   
+    `var tempo = 120;`
+    
+    `var ticks = 1;`
+   
+    `myClock.setTempo(tempo);
+    
+    `myClock.setTicksPerBeat(ticks);
+
+   
+    `audio.play = function() {`
+    
+    `myClock.ticker();`
+    
+    `f (myClock.tick) {`
+            
+           ` scratch=0;`
+           
+           ` counter++;`
+       ` }`
+       
+    `//if (myClock.tick){`
+   
+    `//playHead++;`
+    
+    `//if （Math.random(）>0.5 && PlayHead % 8 ！=4）{`
+    
+    `//if （PlayHead % 8 ==0||playHead %8 == 3）{`
+    
+    ` if (myClock.tick && counter % 8 == 0){`
+    
+    `  drum1.trigger();`
+    
+    ` drum4.trigger();`
+    ` }`
+    `else if (myClock.tick && myClock.playHead %6 == 3){`
+    
+    `  drum3.trigger();`
+      
+    ` }`
+    ` else if (myClock.tick && counter %7 == 2){`
+    
+    `drum4.trigger();`
+    
+    `drum2.trigger();`
+    ` }`
+    
+    ` else if (myClock.tick && myClock.playHead %5== 0){`
+    
+     ` drum4.trigger();`
+      
+      
+    `}`
+   
+    `var mix =drum1.playOnce(myOsc.sinewave(0.5)*5) + drum4.playOnce(0.5)+ drum2.playOnce(0.5)+drum3.playOnce(0.5)
+    
+    `return mix * 3;`
+    ` }`
+
+
