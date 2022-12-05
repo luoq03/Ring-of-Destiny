@@ -6,7 +6,11 @@ This is my final project, the theme of which is the Ring of Destiny. It describe
 
 
 
+
+
+
 ![1aa081e0e8eabb389d7609fdd48741b](https://user-images.githubusercontent.com/57748663/205641986-cc722455-af3d-4a18-8017-1abe1fc7fb49.png)
 
 
-
+## Skybox ##
+![09a954267d49fee369528e34ce22561](https://user-images.githubusercontent.com/57748663/205642493-308c5ceb-48b3-4423-9a4e-9dc5a3e0d6fb.png)
