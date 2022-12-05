@@ -559,6 +559,7 @@ The white material has a 'more rule' feeling and represents layers of restrictio
 `const material1 = new THREE.MeshBasicMaterial( { color: 0xffffff } );`
 
 Material2
+
 The reflective material better reflects the blend with the environment.
 
 ![d43f5e7b568044e132efdceeb044092](https://user-images.githubusercontent.com/57748663/205668994-b1482f75-014c-4e6a-987d-bb3c6e990ebb.png)
