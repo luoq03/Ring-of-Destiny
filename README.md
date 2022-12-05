@@ -1,2 +1,3 @@
-# Ring-of-Destiny
-## Coding 1 Final Project
+# **Ring-of-Destiny**
+Coding 1 Final Project
+##
