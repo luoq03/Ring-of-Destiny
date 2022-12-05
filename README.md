@@ -60,6 +60,7 @@ I chose to use images of psycho-bionics to map the context of the story of peopl
 
 <br>
 Diamond1 
+
 `var sphereGeometry2 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh2 = new THREE.Mesh(sphereGeometry2, cubeMaterial1);`
@@ -68,6 +69,7 @@ Diamond1
 
 <br> 
 Diamond2
+
 `var sphereGeometry3 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh3 = new THREE.Mesh(sphereGeometry3, cubeMaterial1);`
@@ -76,6 +78,7 @@ Diamond2
 
 <br> 
 Diamond3
+
 `var sphereGeometry4 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh4 = new THREE.Mesh(sphereGeometry4, cubeMaterial1);`
@@ -84,6 +87,7 @@ Diamond3
 
 <br> 
 Diamond4
+
 `var sphereGeometry5 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh5 = new THREE.Mesh(sphereGeometry5, cubeMaterial1);`
@@ -92,6 +96,7 @@ Diamond4
 
 <br> 
 Diamond5
+
 `var sphereGeometry6 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh6 = new THREE.Mesh(sphereGeometry6, cubeMaterial1);`
@@ -100,6 +105,7 @@ Diamond5
 
 <br> 
 Diamond6     
+
 `var sphereGeometry7 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh7 = new THREE.Mesh(sphereGeometry7, cubeMaterial1);`
@@ -108,6 +114,7 @@ Diamond6
 
 <br> 
 Diamond7
+
 `var sphereGeometry8 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh8 = new THREE.Mesh(sphereGeometry8, cubeMaterial1);`
@@ -115,7 +122,8 @@ Diamond7
 `scene.add(sphereMesh8);`
 
 <br> 
- Diamond8    
+ Diamond8
+ 
 `var sphereGeometry9 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh9= new THREE.Mesh(sphereGeometry9, cubeMaterial1);`
@@ -131,7 +139,8 @@ Diamond7
 `scene.add(sphereMesh10);`
 
 <br> 
- Diamond10    
+ Diamond10  
+ 
 `var sphereGeometry11 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh11 = new THREE.Mesh(sphereGeometry11, cubeMaterial1);`
@@ -139,7 +148,8 @@ Diamond7
 `scene.add(sphereMesh11);`
 
 <br> 
- Diamond11     
+ Diamond11
+ 
 `var sphereGeometry12 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh12= new THREE.Mesh(sphereGeometry12, cubeMaterial1);`
@@ -148,6 +158,7 @@ Diamond7
 
 <br> 
  Diamond12    
+ 
 `var sphereGeometry13 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh13 = new THREE.Mesh(sphereGeometry13, cubeMaterial1);`
@@ -156,6 +167,7 @@ Diamond7
 
 <br> 
 Diamond13
+
 `var sphereGeometry14 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh14 = new THREE.Mesh(sphereGeometry14, cubeMaterial1);`
@@ -164,6 +176,7 @@ Diamond13
 
 <br> 
 Diamond14
+
 `var sphereGeometry15 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh15 = new THREE.Mesh(sphereGeometry15, cubeMaterial1);`
@@ -172,6 +185,7 @@ Diamond14
 
 <br> 
 Diamond15
+
 `var sphereGeometry16 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh16 = new THREE.Mesh(sphereGeometry16, cubeMaterial1);`
@@ -180,6 +194,7 @@ Diamond15
 
 <br> 
 Diamond16
+
 `var sphereGeometry17 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh17 = new THREE.Mesh(sphereGeometry17, cubeMaterial1);`
@@ -188,6 +203,7 @@ Diamond16
 
 <br> 
 Diamond17
+
 `var sphereGeometry18 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh18 = new THREE.Mesh(sphereGeometry18, cubeMaterial1);`
@@ -195,7 +211,8 @@ Diamond17
 `scene.add(sphereMesh18);`
 
 <br> 
-Diamond18      
+Diamond18   
+
 `var sphereGeometry19 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh19 = new THREE.Mesh(sphereGeometry19, cubeMaterial1);`
@@ -204,6 +221,7 @@ Diamond18
 
 <br> 
 Diamond19
+
 `var sphereGeometry20 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh20 = new THREE.Mesh(sphereGeometry20, cubeMaterial1);`
@@ -212,6 +230,7 @@ Diamond19
 
 <br> 
 Diamond20      
+
 `var sphereGeometry21 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh21= new THREE.Mesh(sphereGeometry21, cubeMaterial1);`
@@ -219,7 +238,8 @@ Diamond20
 `scene.add(sphereMesh21);`
 
 <br> 
- Diamond21     
+ Diamond21  
+ 
 `var sphereGeometry22 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh22= new THREE.Mesh(sphereGeometry22, cubeMaterial1);`
@@ -227,7 +247,8 @@ Diamond20
 `scene.add(sphereMesh22);`
 
 <br> 
-Diamond22      
+Diamond22    
+
 `var sphereGeometry23 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh23 = new THREE.Mesh(sphereGeometry23, cubeMaterial1);`
@@ -235,7 +256,8 @@ Diamond22
 `scene.add(sphereMesh23);`
 
 <br> 
- Diamond23     
+ Diamond23    
+ 
 `var sphereGeometry24 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh24= new THREE.Mesh(sphereGeometry24, cubeMaterial1);`
@@ -244,6 +266,7 @@ Diamond22
 
 <br> 
 Diamond24     
+
 `var sphereGeometry25 = new THREE.SphereGeometry(0.15, 15, 2);`
 
 `var sphereMesh25 = new THREE.Mesh(sphereGeometry25, cubeMaterial1);`
@@ -258,15 +281,17 @@ Diamond24
  
  ![9de6d8c13992fa5c87c9e85ab79750b](https://user-images.githubusercontent.com/57748663/205663702-77a94c9b-e820-42e1-bf98-4eeaf49e6108.png)
 
- 
+<br> 
+Circle1 
 `var geometry = new THREE.TorusGeometry( 2, 0.02, 20, 100 );`
 
 `var torus = new THREE.Mesh( geometry, cubeMaterial1);`
 
 `scene.add( torus );`
 
-<br> 
 
+<br> 
+Triangle1
 `var geometry2 = new THREE.TorusGeometry(1, 0.01, 4, 3 );`
 
 `//const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );`
@@ -276,6 +301,7 @@ Diamond24
 `scene.add( torus2 ); `
 
 <br> 
+Circle2
 
 `var geometry3 = new THREE.TorusGeometry( 2, 0.02, 20, 100 );`
 
@@ -286,6 +312,7 @@ Diamond24
 `scene.add( torus3 ); `
 
 <br> 
+Triangle2
 
 `var geometry4 = new THREE.TorusGeometry( 1, 0.01, 4, 3);`
 
@@ -296,6 +323,7 @@ Diamond24
 `scene.add( torus4 );`
 
 <br> 
+Circle3
 
 `var geometry5 = new THREE.TorusGeometry( 2, 0.02, 20, 100 );`
 
@@ -306,6 +334,7 @@ Diamond24
 `scene.add( torus5 ); `
 
 <br> 
+Triangle3
 
 `var geometry6 = new THREE.TorusGeometry(1, 0.01, 4, 3 );`
 
