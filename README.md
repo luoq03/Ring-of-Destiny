@@ -444,49 +444,47 @@ Lights and Camera
     
    `if (myClock.tick) {`
             
-           ` scratch=0;`
+   ` scratch=0;`
            
-           ` counter++;
+   ` counter++;
     }`
        
-    `//if (myClock.tick){`
+   `//if (myClock.tick){`
    
-    `//playHead++;`
+   `//playHead++;`
     
-    `//if （Math.random(）>0.5 && PlayHead % 8 ！=4）{`
+   `//if （Math.random(）>0.5 && PlayHead % 8 ！=4）{`
     
-    `//if （PlayHead % 8 ==0||playHead %8 == 3）{`
+   `//if （PlayHead % 8 ==0||playHead %8 == 3）{`
     
-    ` if (myClock.tick && counter % 8 == 0){`
-    
-    `  drum1.trigger();`
-    
-    ` drum4.trigger();`
-    ` }`
-    `else if (myClock.tick && myClock.playHead %6 == 3){`
-    
-    `  drum3.trigger();`
-      
-    ` }`
-    ` else if (myClock.tick && counter %7 == 2){`
-    
-    `drum4.trigger();`
-    
-    `drum2.trigger();`
-    ` }`
-    
-    ` else if (myClock.tick && myClock.playHead %5== 0){`
-    
-     ` drum4.trigger();`
-      
-      
-    `}`
+   ` if (myClock.tick && counter % 8 == 0){`
    
-    `var mix =drum1.playOnce(myOsc.sinewave(0.5)*5) + 
+   `  drum1.trigger();`
     
-    drum4.playOnce(0.5)+ drum2.playOnce(0.5)+drum3.playOnce(0.5)`
+   ` drum4.trigger();`
+   ` }`
+   `else if (myClock.tick && myClock.playHead %6 == 3){`
     
-    `return mix * 3;`
+   `  drum3.trigger();`
+      
+   ` }`
+   
+   ` else if (myClock.tick && counter %7 == 2){`
+    
+   `drum4.trigger();`
+    
+   `drum2.trigger();`
     ` }`
+    
+   ` else if (myClock.tick && myClock.playHead %5== 0){`
+    
+   ` drum4.trigger();`
+      
+   `}`
+   
+   `var mix =drum1.playOnce(myOsc.sinewave(0.5)*5) + drum4.playOnce(0.5)+ drum2.playOnce(0.5)+drum3.playOnce(0.5)`
+    
+   `return mix * 3;`
+   ` }`
 
 
