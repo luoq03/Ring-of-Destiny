@@ -352,9 +352,9 @@ Triangle3
   
 `//torus.rotation.z += 0.005;`
   
-`//torus2.rotation.x -= 0.005;
+`//torus2.rotation.x -= 0.005;`
   
-torus2.rotation.y += 0.005;
+`torus2.rotation.y += 0.005;
   
 torus2.rotation.x -= 0.005;`
   
