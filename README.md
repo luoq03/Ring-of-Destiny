@@ -283,6 +283,7 @@ Diamond24
 
 <br> 
 Circle1 
+
 `var geometry = new THREE.TorusGeometry( 2, 0.02, 20, 100 );`
 
 `var torus = new THREE.Mesh( geometry, cubeMaterial1);`
@@ -292,6 +293,7 @@ Circle1
 
 <br> 
 Triangle1
+
 `var geometry2 = new THREE.TorusGeometry(1, 0.01, 4, 3 );`
 
 `//const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );`
