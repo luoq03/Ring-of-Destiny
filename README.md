@@ -433,21 +433,21 @@ Lights and Camera
     
     `var ticks = 1;`
    
-    `myClock.setTempo(tempo);
+    `myClock.setTempo(tempo);`
     
-    `myClock.setTicksPerBeat(ticks);
+    `myClock.setTicksPerBeat(ticks);`
 
    
     `audio.play = function() {`
     
     `myClock.ticker();`
     
-    `f (myClock.tick) {`
+    `if (myClock.tick) {`
             
            ` scratch=0;`
            
-           ` counter++;`
-       ` }`
+           ` counter++;
+    }`
        
     `//if (myClock.tick){`
    
@@ -482,7 +482,9 @@ Lights and Camera
       
     `}`
    
-    `var mix =drum1.playOnce(myOsc.sinewave(0.5)*5) + drum4.playOnce(0.5)+ drum2.playOnce(0.5)+drum3.playOnce(0.5)
+    `var mix =drum1.playOnce(myOsc.sinewave(0.5)*5) + 
+    
+    drum4.playOnce(0.5)+ drum2.playOnce(0.5)+drum3.playOnce(0.5)`
     
     `return mix * 3;`
     ` }`
