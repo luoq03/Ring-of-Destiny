@@ -55,7 +55,10 @@ I chose to use images of psycho-bionics to map the context of the story of peopl
  
  ### "Diamonds" scattered around ###
  <br> 
+ 
  ![bb6e1d31d46426d3b06e4f1db025faf](https://user-images.githubusercontent.com/57748663/205657096-ceb72fd2-353b-4ec2-84d0-c2a9543efb36.png)
+
+<br>
  
 `var sphereGeometry2 = new THREE.SphereGeometry(0.15, 15, 2);`
 
