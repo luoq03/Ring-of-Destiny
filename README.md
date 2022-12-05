@@ -346,5 +346,28 @@ Triangle3
 
 ### Materials / Lighting / Camera ###
 
+Materials
 
+`//materials`
+
+Material1
+
+![ddbbb6098fff160ab650d8ff9be0151](https://user-images.githubusercontent.com/57748663/205669290-75754546-0c44-4cd6-8bbb-027c89d70d76.png)
+
+`const material1 = new THREE.MeshBasicMaterial( { color: 0xffffff } );`
+
+Material2
+
+![d43f5e7b568044e132efdceeb044092](https://user-images.githubusercontent.com/57748663/205668994-b1482f75-014c-4e6a-987d-bb3c6e990ebb.png)
+
+`const cubeMaterial1 = new THREE.MeshLambertMaterial({`
+
+
+ ` color: 0xffffff,`
+ 
+ 
+  `envMap: reflectionCube,`
+  
+  
+`});`
 
