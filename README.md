@@ -1,6 +1,9 @@
 # **Ring-of-Destiny**
 Coding 1 Final Project
 
+mimicproject-link
+
+https://mimicproject.com/code/5f339607-753c-8dbb-70c1-0dc780dd5f97
 
 
 https://user-images.githubusercontent.com/57748663/205693530-9913dee0-7b66-45a8-ae83-c93b7603818e.mp4
@@ -23,7 +26,7 @@ This is my final project, the theme of which is the Ring of Destiny(Switching vi
 
 <br>
 
-I chose to use images of psycho-bionics to map the context of the story of people accessing energy through their spirits.
+I chose to use images of psycho-bionics to map the context of the story of people accessing energy through their spirits.Many outstretched tentacles form the fabric of society.
 
 <br>
 
