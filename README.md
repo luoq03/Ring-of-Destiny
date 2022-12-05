@@ -3,7 +3,7 @@ Coding 1 Final Project
 
 ## Project Overview ##
 
-This is my final project, the theme of which is the Ring of Destiny. It describes a scenario in which, as the population continues to grow, the energy supply on earth becomes a bottleneck for human development. Attempts are made to amplify spiritual power and transform it into energy machines so that human civilisation can continue to develop at a high rate.
+This is my final project, the theme of which is the Ring of Destiny(Switching views with the mouse). It describes a scenario in which, as the population continues to grow, the energy supply on earth becomes a bottleneck for human development. Attempts are made to amplify spiritual power and transform it into energy machines so that human civilisation can continue to develop at a high rate.
 
 <br>
 
@@ -203,3 +203,36 @@ I chose to use images of psycho-bionics to map the context of the story of peopl
 `var sphereMesh25 = new THREE.Mesh(sphereGeometry25, cubeMaterial1);`
 
 `scene.add(sphereMesh25);`
+
+ <br> 
+ 
+ ### Revolving three circles and three revolving triangles ###
+ <br> 
+`var geometry = new THREE.TorusGeometry( 2, 0.02, 20, 100 );
+var torus = new THREE.Mesh( geometry, cubeMaterial1);
+scene.add( torus );
+
+var geometry2 = new THREE.TorusGeometry(1, 0.01, 4, 3 );
+//const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
+var torus2 = new THREE.Mesh( geometry2, material1 );
+scene.add( torus2 ); 
+
+var geometry3 = new THREE.TorusGeometry( 2, 0.02, 20, 100 );
+//const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
+var torus3 = new THREE.Mesh( geometry3, cubeMaterial1 );
+scene.add( torus3 ); 
+
+var geometry4 = new THREE.TorusGeometry( 1, 0.01, 4, 3);
+//const material = new THREE.MeshBasicMaterial(  );
+var torus4 = new THREE.Mesh( geometry4, material1);
+scene.add( torus4 );
+
+var geometry5 = new THREE.TorusGeometry( 2, 0.02, 20, 100 );
+//const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
+var torus5 = new THREE.Mesh( geometry5, cubeMaterial1 );
+scene.add( torus5 ); 
+
+var geometry6 = new THREE.TorusGeometry(1, 0.01, 4, 3 );
+//const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
+var torus6 = new THREE.Mesh( geometry6, material1 );
+scene.add( torus6 );  `   
