@@ -1,6 +1,12 @@
 # **Ring-of-Destiny**
 Coding 1 Final Project
 
+
+
+https://user-images.githubusercontent.com/57748663/205689723-f38e6eb8-14f4-420c-8f5a-92c8ee857473.mp4
+
+
+
 ## Project Overview ##
 
 This is my final project, the theme of which is the Ring of Destiny(Switching views with the mouse). It describes a scenario in which, as the population continues to grow, the energy supply on earth becomes a bottleneck for human development. Attempts are made to amplify spiritual power and transform it into energy machines so that human civilisation can continue to develop at a high rate.
