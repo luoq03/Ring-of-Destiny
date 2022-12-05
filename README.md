@@ -344,6 +344,203 @@ Triangle3
 
 `scene.add( torus6 );`
 
+### Object Movement ###
+
+`function draw() {`
+  
+  `torus.rotation.x += 0.005;
+  
+  torus.rotation.y -= 0.005;
+  
+  //torus.rotation.z += 0.005;`
+  
+  `//torus2.rotation.x -= 0.005;
+  
+  torus2.rotation.y += 0.005;
+  
+  torus2.rotation.x -= 0.005;`
+  
+  `torus3.rotation.x -= 0.005;
+  
+  torus3.rotation.z += 0.005;`
+  
+  `torus4.rotation.x += 0.005;
+  
+  torus4.rotation.z -= 0.005;
+  
+  //torus.rotation.z += 0.005;`
+  
+  `//torus2.rotation.x -= 0.005;
+  
+  torus5.rotation.y += 0.005;
+  
+  torus5.rotation.z -= 0.005;`
+  
+  `torus6.rotation.y -= 0.005;
+  torus6.rotation.z += 0.005;`
+  
+ ` sphereMesh.rotation.x += 0.005;
+  sphereMesh.rotation.y += 0.005;
+  sphereMesh.rotation.z += 0.005;`
+  
+ `sphereMesh2.rotation.x += 0.01;
+  sphereMesh2.rotation.y += 0.01;`
+  
+ ` sphereMesh3.rotation.x += 0.01;
+  sphereMesh3.rotation.y += 0.01;`
+  
+ ` sphereMesh4.rotation.x += 0.01;
+  sphereMesh4.rotation.y += 0.01;`
+  
+ `sphereMesh5.rotation.x += 0.01;
+  sphereMesh5.rotation.y += 0.01;`
+  
+ ` sphereMesh6.rotation.x += 0.005;
+  sphereMesh6.rotation.y += 0.005;
+  sphereMesh6.rotation.z += 0.005;`
+  
+ `sphereMesh7.rotation.x += 0.01;
+  sphereMesh7.rotation.y += 0.01;`
+  
+ `sphereMesh8.rotation.x += 0.01;
+  sphereMesh8.rotation.y += 0.01;`
+  
+ `sphereMesh9.rotation.x += 0.01;
+  sphereMesh9.rotation.y += 0.01;`
+  
+ `sphereMesh10.rotation.x += 0.01;
+  sphereMesh10.rotation.y += 0.01;`
+  
+ `sphereMesh11.rotation.y += 0.01;
+  sphereMesh11.rotation.x += 0.01;`
+  
+ ` sphereMesh12.rotation.y += 0.01;
+  sphereMesh12.rotation.x += 0.01;`
+  
+  `sphereMesh13.rotation.y += 0.01;
+  sphereMesh13.rotation.x += 0.01;
+  sphereMesh13.rotation.z += 0.01;`
+  
+  
+  `sphereMesh14.rotation.x += 0.005;
+  sphereMesh14.rotation.y += 0.005;
+  sphereMesh14.rotation.z += 0.005;`
+  
+  `sphereMesh15.rotation.x += 0.01;
+  sphereMesh15.rotation.y += 0.01;`
+  
+  `sphereMesh16.rotation.x += 0.01;
+  sphereMesh16.rotation.y += 0.01;`
+  
+  `sphereMesh17.rotation.x += 0.01;
+  sphereMesh17.rotation.y += 0.01;`
+  
+  `sphereMesh18.rotation.x += 0.01;
+  sphereMesh18.rotation.y += 0.01;`
+  
+  `sphereMesh19.rotation.x += 0.005;
+  sphereMesh19.rotation.y += 0.005;
+  sphereMesh19.rotation.z += 0.005;`
+  
+  `sphereMesh20.rotation.x += 0.01;
+  sphereMesh20.rotation.y += 0.01;`
+  
+  `sphereMesh21.rotation.x += 0.01;
+  sphereMesh21.rotation.y += 0.01;`
+  
+  `sphereMesh22.rotation.x += 0.01;
+  sphereMesh22.rotation.y += 0.01;`
+  
+  `sphereMesh23.rotation.x += 0.01;
+  sphereMesh23.rotation.y += 0.01;`
+  
+  `sphereMesh24.rotation.y += 0.01;
+  sphereMesh24.rotation.x += 0.01;`
+  
+  `sphereMesh25.rotation.y += 0.01;
+  sphereMesh25.rotation.x += 0.01;`
+  
+  `//camera.position.x += 0.01;
+   //sphereMesh.position.x = 50;
+  //sphereMesh.position.z = -10;`
+  
+  `sphereMesh2.position.x = 1;
+  sphereMesh2.position.z= 1;`
+  
+  `sphereMesh3.position.x = 1;
+  sphereMesh3.position.z = -1;`
+  
+  `sphereMesh4.position.x = -1;
+  sphereMesh4.position.z = 1;`
+  
+  `sphereMesh5.position.x = -1;
+  sphereMesh5.position.z = -1;`
+  
+  `sphereMesh6.position.x = 1;
+  sphereMesh6.position.y = 1;`
+  
+  `sphereMesh7.position.x = 1;
+  sphereMesh7.position.y = -1;`
+  
+  `sphereMesh8.position.x = -1;
+  sphereMesh8.position.y = 1;`
+  
+  `sphereMesh9.position.x = -1;
+  sphereMesh9.position.y = -1;`
+  
+  `sphereMesh10.position.y = 1;
+  sphereMesh10.position.z = 1;`
+  
+  `sphereMesh11.position.y = 1;
+  sphereMesh11.position.z = -1;`
+  
+  `sphereMesh12.position.y = -1;
+  sphereMesh12.position.z = 1;`
+  
+  `sphereMesh13.position.y = -1;
+  sphereMesh13.position.z = -1;`
+  
+  `sphereMesh14.position.x = 2;
+  sphereMesh14.position.z= 2;`
+  
+  `sphereMesh15.position.x = 2;
+  sphereMesh15.position.z = -2;`
+  
+  `sphereMesh16.position.x = -2;
+  sphereMesh16.position.z = 2;`
+  
+  `sphereMesh17.position.x = -2;
+  sphereMesh17.position.z = -2;`
+  
+  `sphereMesh18.position.x = 2;
+  sphereMesh18.position.y = 2;`
+  
+  `sphereMesh19.position.x = 2;
+  sphereMesh19.position.y = -2;`
+  
+  `sphereMesh20.position.x = -2;
+  sphereMesh20.position.y = 2;`
+  
+  `sphereMesh21.position.x = -2;
+  sphereMesh21.position.y = -2;`
+  
+  `sphereMesh22.position.y = 2;
+  sphereMesh22.position.z = 2;`
+  
+  `sphereMesh23.position.y = 2;
+  sphereMesh23.position.z = -2;`
+  
+  `sphereMesh24.position.y = -2;
+  sphereMesh24.position.z = 2;`
+  
+  `sphereMesh25.position.y = -2;
+  sphereMesh25.position.z = -2;`
+  
+  `controls.update();
+  renderer.render(scene, camera);
+  requestAnimationFrame(draw);`
+}
+
 ### Materials / Lighting / Camera ###
 
 Materials
