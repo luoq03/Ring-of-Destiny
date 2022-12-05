@@ -34,5 +34,19 @@ I chose to use images of psycho-bionics to map the context of the story of peopl
   'down.png',];`
  
  <br> 
+ 
+ ### The circle in the centre ###
+
+<br>
   
 ![998f09cefe541c7fcabfd1abdbfc3bf](https://user-images.githubusercontent.com/57748663/205646483-bec85a9d-fd9a-44d1-a1be-25c63e92cbc4.png)
+
+<br>
+
+`var sphereGeometry = new THREE.TorusKnotGeometry(0.5, 0.15,100, 30); `
+<br>
+`//const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );` 
+<br>
+`var sphereMesh = new THREE.Mesh(sphereGeometry, cubeMaterial1);` 
+<br>
+`scene.add(sphereMesh);`
